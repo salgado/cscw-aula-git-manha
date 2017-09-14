@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Turma da Manhã</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -16,6 +16,11 @@
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
+            }
+            @media (min-width: 768px){
+              .caixa .thumbnail img{
+                max-height: 250px;
+              }
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -51,94 +56,103 @@
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Yuri Lima</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <p><img src="yurilima.jpg" class="img-responsive img-rounded" alt="Responsive image"></p>
+      <div class="row"><!-- 1ª linha -->
+        <div class="col-sm-4 col-md-3 caixa">
+          <div class="thumbnail">
+            <img src="yurilima.jpg" alt="Yuri Lima">
+            <div class="caption">
+              <h2>Yuri Lima</h2>
+              <p><a href="yurilima.html" class="btn btn-default" role="button">Ver Detalhes &raquo;</a></p>
             </div>
           </div>
-          <p><a class="btn btn-default" href="yurilima.html" role="button">Ver Detalhes &raquo;</a></p>
         </div>
         <!-- felipe -->
-        <div class="col-md-4">
-
-          <h2>Felipe Prado</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <p><img src="felipeprado.jpg" class="img-responsive img-rounded" alt="Responsive image"></p>
+        <div class="col-sm-4 col-md-3 caixa">
+          <div class="thumbnail">
+            <img src="felipeprado.jpg" alt="Felipe Prado">
+            <div class="caption">
+              <h2>Felipe Prado</h2>
+              <p><a href="felipeprado.html" class="btn btn-default" role="button">Ver Detalhes &raquo;</a></p>
             </div>
           </div>
-          <p><a class="btn btn-default" href="felipeprado.html" role="button">Ver Detalhes &raquo;</a></p>
-       </div>
+        </div>
        <!-- eyre -->
-        <div class="col-md-4">
-          <h2>Eyre Brasil</h2>
-          <div class="row">
-          <p><img src="images/ookami.png" width="100px" height="100px"/></p>
-          <p><a class="btn btn-default" href="eyre.html" role="button">View details &raquo;</a></p>
+        <div class="col-sm-4 col-md-3 caixa">
+          <div class="thumbnail">
+            <img src="images/ookami.png" alt="Eyre Brasil">
+            <div class="caption">
+              <h2>Eyre Brasil</h2>
+              <p><a href="eyre.html" class="btn btn-default" role="button">Ver Detalhes &raquo;</a></p>
+            </div>
+          </div>
         </div>
-      </div>
+ 
         <!-- bruna -->
-       
-        <div class="col-md-4">
-          <h2>Bruna Guedes</h2>
-          <div class="row">
-           <div class="col-md-6">
-            <p><img src="images/avatar2.jpg" class="img-responsive img-rounded" alt="Responsive image"></p>
-          </div> 
+        <div class="col-sm-4 col-md-3 caixa">
+          <div class="thumbnail">
+            <img src="images/avatar2.jpg" alt="Bruna Guedes">
+            <div class="caption">
+              <h2>Bruna Guedes</h2>
+              <p><a href="brunaguedes.html" class="btn btn-default" role="button">Ver Detalhes &raquo;</a></p>
+            </div>
+          </div>
         </div>
-            <p><a class="btn btn-default" href="brunaguedes.html" role="button">Ver detalhes &raquo;</a></p>
-       </div>
         <!-- renan -->
-        <div class="col-md-4">
-          <h2>Renan</h2>
-          <p><img src="Renan.jpg" width="100px" height="100px"></p>
-          <p><a class="btn btn-default" href="renanxcalmon.html" role="button">Veja mais! &raquo;</a></p>
+        <div class="col-sm-4 col-md-3 caixa">
+          <div class="thumbnail">
+            <img src="Renan.jpg" alt="...">
+            <div class="caption">
+              <h2>Renan</h2>
+              <p><a href="renanxcalmon.html" class="btn btn-default" role="button">Ver Detalhes &raquo;</a></p>
+            </div>
+          </div>
         </div>
        <!-- pedro -->
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <p><img src="" class="img-responsive img-rounded" alt="Responsive image"></p>
+        <div class="col-sm-4 col-md-3 caixa">
+          <div class="thumbnail">
+            <img src="" alt="...">
+            <div class="caption">
+              <h2>Pedro</h2>
+              <p><a href="#" class="btn btn-default" role="button">Ver Detalhes &raquo;</a></p>
             </div>
           </div>
-          <p><a class="btn btn-default" href="yurilima.html" role="button">Ver Detalhes &raquo;</a></p>
         </div>
-      </div>
-      <div class="row">
+
         <!-- eduardo -->
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <p><img src="" class="img-responsive img-rounded" alt="Responsive image"></p>
+        <div class="col-sm-4 col-md-3 caixa">
+          <div class="thumbnail">
+            <img src="images/eduardo_gomes.jpg" alt="Eduardo Gomes">
+            <div class="caption">
+              <h2>Eduardo Gomes</h2>
+              <p><a href="eduardogomes.html" class="btn btn-default" role="button">Ver Detalhes &raquo;</a></p>
             </div>
           </div>
-          <p><a class="btn btn-default" href="yurilima.html" role="button">Ver Detalhes &raquo;</a></p>
         </div>
+
         <!-- caio -->
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <p><img src="" class="img-responsive img-rounded" alt="Responsive image"></p>
+        <div class="col-sm-4 col-md-3 caixa">
+          <div class="thumbnail">
+            <img src="CaioBoechat.jpg" alt="Caio Boechat">
+            <div class="caption">
+              <h2>Caio Boechat</h2>
+            <p><a href="#" class="btn btn-default" role="button">Ver Detalhes &raquo;</a></p>
             </div>
           </div>
-          <p><a class="btn btn-default" href="yurilima.html" role="button">Ver Detalhes &raquo;</a></p>
-        </div>
-
-        <div class="col-md-4">
-          <h2>Caio Boechat</h2>
-          <p><img src="CaioBoechat.jpg" width="100px" height="100px"/></p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-<!-- inserir aqui -->
-
         </div>
       </div>
+      
+      <!-- nova linha -->
+      <!-- <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <p><img src="" class="img-responsive img-rounded" alt="Responsive image"></p>
+            </div>
+          </div>
+          <p><a class="btn btn-default" href="yurilima.html" role="button">Ver Detalhes &raquo;</a></p>
+        </div>
+      </div> -->
 
       <hr>
 
